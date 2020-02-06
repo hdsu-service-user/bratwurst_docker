@@ -1,4 +1,4 @@
-FROM andresquintero/bratwurst_tensorflow2
+FROM hdsu/bratwurst_tensorflow2
 
 LABEL maintainer="Andres Quintero a.quintero@dkfz-heidelberg.de"
 

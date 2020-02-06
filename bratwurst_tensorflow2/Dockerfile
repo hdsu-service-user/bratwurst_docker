@@ -1,4 +1,4 @@
-FROM andresquintero/r_tensorflow2
+FROM hdsu/r_tensorflow2
 
 LABEL maintainer="Andres Quintero a.quintero@dkfz-heidelberg.de"
 

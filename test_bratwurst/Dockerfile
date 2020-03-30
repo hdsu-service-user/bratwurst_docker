@@ -3,8 +3,8 @@ FROM hdsu/bratwurst_tensorflow2
 LABEL maintainer="Andres Quintero a.quintero@dkfz-heidelberg.de"
 
 
-RUN R -e "devtools::install_github('andquintero/bratwurst', ref='dev_hdsu') "
-
+#RUN R -e "devtools::install_github('andquintero/bratwurst', ref='dev_hdsu') "
+RUN R -e "devtools::install_github('hdsu-bioquant/bratwurst', ref='dev_hdsu_lite') "
     
 RUN R -e "BiocManager::install('DESeq2', update = FALSE)"
 RUN R -e "BiocManager::install('gage', update = FALSE)"
